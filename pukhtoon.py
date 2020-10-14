@@ -50,7 +50,7 @@ def jalan(z):
 logo = """ -----------------------------•◈•
 (  __)\\ ____--------------_------------•◈•
 |__(~)    •||•THE - M ULLAH -OFFICAL------•◈•
-|__\~~) •||•PUKHTOON - PUKHTOON---------------•◈•
+|__\~~) •||•PUKHTOON - TIGER---------------•◈•
 |__(-----\  •◈•------PUKHTOON-KING--------•◈•
 |__~~~\ •◈•-----█-------⑦-------█------•◈•
 |__~~~\ •◈•-----█-------⑧-------█------•◈•
@@ -87,8 +87,8 @@ print  """\033[1;91m=======================================
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
 
-CorrectUsername = MULLAH
-CorrectPassword = PUKHTOON
+CorrectUsername = "MULLAH"
+CorrectPassword = "PUKHTOON"
 
 loop = 'true'
 while (loop == 'true'):
@@ -96,7 +96,7 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;96m[☆] \x1b[1;93mPassword Of Tool \x1b[1;96m>>>> ")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username
+            print "Logged in successfully as " + MULLAH
             loop = 'false'
         else:
             print "Wrong Password"
